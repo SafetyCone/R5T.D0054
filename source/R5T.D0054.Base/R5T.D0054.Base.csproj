@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.T0014\source\R5T.T0014.Abstractions\R5T.T0014.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

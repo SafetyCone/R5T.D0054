@@ -1,0 +1,4 @@
+R5T.D0054.Base - Base service definitions library for the IGmailSendAsInformationProvider service.
+
+Goals
+
