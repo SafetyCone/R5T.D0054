@@ -2,11 +2,13 @@
 using System.Threading.Tasks;
 
 using R5T.T0014;
+using R5T.T0064;
 
 
 namespace R5T.D0054
 {
-    public interface IGmailSendAsInformationProvider
+    [ServiceDefinitionMarker]
+    public interface IGmailSendAsInformationProvider : IServiceDefinition
     {
         Task<ISendAsInformation> GetGmailSendAsInformation();
     }
